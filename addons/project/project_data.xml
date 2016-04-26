@@ -17,7 +17,7 @@
             <field name="object">project.task</field>
         </record>
 
-        <!-- Resource: project.project -->
+         Resource: project.project
         <record id="all_projects_account" model="account.analytic.account">
             <field name="name">Projects</field>
             <field name="code">PP001</field>
