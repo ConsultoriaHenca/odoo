@@ -218,9 +218,9 @@ class AccountBankStatementImport(models.TransientModel):
                 # Create the satement
                 st_vals['line_ids'] = [[0, False, line] for line in filtered_st_lines]
                 statement_ids.append(BankStatement.create(st_vals).id)
-        # if len(statement_ids) == 0:
-        #     raise UserError(_('You have already imported that file.'))
-        #TODO ENELDO CHECK THIS RAISE
+        if len(statement_ids) == 0:
+            raise UserError(_('You have already imported that file.'))
+
         # Prepare import feedback
         notifications = []
         num_ignored = len(ignored_statement_lines_import_ids)
