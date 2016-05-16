@@ -231,7 +231,12 @@ class ir_http(orm.AbstractModel):
                     path = '/' + request.lang + path
                 if request.httprequest.query_string:
                     path += '?' + request.httprequest.query_string
-                return werkzeug.utils.redirect(path, code=301)
+                # return werkzeug.utils.redirect(path, code=301) original line from core
+                # patch eneldo
+                response = werkzeug.utils.redirect(path, code=301)
+                response.autocorrect_location_header = False
+                return response
+                # patch eneldo
 
     def _handle_exception(self, exception, code=500):
         is_website_request = bool(getattr(request, 'website_enabled', False) and request.website)
