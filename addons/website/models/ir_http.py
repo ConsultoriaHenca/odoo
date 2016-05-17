@@ -232,7 +232,8 @@ class ir_http(orm.AbstractModel):
                 if request.httprequest.query_string:
                     path += '?' + request.httprequest.query_string
                 # return werkzeug.utils.redirect(path, code=301) original line from core
-                # patch eneldo
+
+                # patch eneldo https://github.com/odoo/odoo/pull/10363/commits/ee9805f783a683bf5af92fc377bd3b1a2ace05db
                 response = werkzeug.utils.redirect(path, code=301)
                 response.autocorrect_location_header = False
                 return response
