@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-15 09:26+0000\n"
-"PO-Revision-Date: 2016-05-13 21:32+0000\n"
+"PO-Revision-Date: 2016-05-19 06:01+0000\n"
 "Last-Translator: Juliano Henriquez <juliano@consultoriahenca.com>\n"
 "Language-Team: Spanish (Dominican Republic) (http://www.transifex.com/odoo/odoo-9/language/es_DO/)\n"
 "MIME-Version: 1.0\n"
@@ -450,12 +450,12 @@ msgstr "Asiento de amortización"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Depreciation Asset Account"
-msgstr "Cuenta la depreciación de activos"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Depreciation Expense Account"
-msgstr "Cuenta de gastos de depreciación"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
@@ -1059,7 +1059,7 @@ msgstr "Año"
 msgid ""
 "You already have assets with the reference %s.\n"
 "Please delete these assets before creating new ones for this invoice."
-msgstr "Ya tiene activos con la referencia %s.\nPor favor, elimine estos activos antes de crear otros nuevos para esta factura."
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/account_asset.py:100
