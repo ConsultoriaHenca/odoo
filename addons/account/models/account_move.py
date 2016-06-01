@@ -173,7 +173,11 @@ class AccountMove(models.Model):
             if self.user_has_groups('account.group_account_manager'):
                 lock_date = move.company_id.fiscalyear_lock_date
             if move.date <= lock_date:
-                raise UserError(_("You cannot add/modify entries prior to and inclusive of the lock date %s. Check the company settings or ask someone with the 'Adviser' role") % (lock_date))
+                if self.user_has_groups('account.group_account_manager'):
+                    message = _("You cannot add/modify entries prior to and inclusive of the lock date %s") % (lock_date)
+                else:
+                    message = _("You cannot add/modify entries prior to and inclusive of the lock date %s. Check the company settings or ask someone with the 'Adviser' role") % (lock_date)
+                raise UserError(message)
         return True
 
     @api.multi
@@ -1053,9 +1057,7 @@ class AccountMoveLine(models.Model):
                         'name': vals['name'] + ' ' + tax_vals['name'],
                         'tax_line_id': tax_vals['id'],
                         'move_id': vals['move_id'],
-                        'date': vals['date'],
                         'partner_id': vals.get('partner_id'),
-                        'ref': vals.get('ref'),
                         'statement_id': vals.get('statement_id'),
                         'debit': tax_vals['amount'] > 0 and tax_vals['amount'] or 0.0,
                         'credit': tax_vals['amount'] < 0 and -tax_vals['amount'] or 0.0,
