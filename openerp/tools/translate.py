@@ -1013,6 +1013,9 @@ def trans_generate(lang, modules, cr):
     return out
 
 def trans_load(cr, filename, lang, verbose=True, module_name=None, context=None):
+    config = openerp.tools.config
+    if config.get("no_update_lang",False):
+        return None
     try:
         fileobj = misc.file_open(filename)
         _logger.info("loading %s", filename)
