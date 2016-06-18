@@ -51,7 +51,7 @@ This is the base module to manage the accounting chart for Dominican Republic.
         'data/ir_sequence_type.xml',
         'data/ir_sequence.xml',
         'data/account_journal.xml',
-        'data/account.account.type.csv',
+        # 'data/account.account.type.csv',
         'data/account.account.template.csv',
         'data/account.tax.code.template.csv',
         'data/account_chart_template.xml',
