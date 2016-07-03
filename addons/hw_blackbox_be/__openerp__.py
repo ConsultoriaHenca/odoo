@@ -3,7 +3,7 @@
 {
     'name': 'Blackbox Hardware Driver',
     'version': '1.0',
-    'category': 'Hardware Drivers',
+    'category': 'Point of Sale',
     'sequence': 6,
     'summary': 'Hardware Driver for Belgian Fiscal Data Modules',
     'website': 'https://www.odoo.com/page/point-of-sale',
@@ -14,7 +14,6 @@ Fiscal Data Module Hardware Driver
 This module allows a Point Of Sale client to communicate with a
 connected Belgian Fiscal Data Module.
 """,
-    'author': 'OpenERP SA',
     'depends': ['hw_proxy'],
     'external_dependencies': {'python': ['serial']},
     'test': [
