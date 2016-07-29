@@ -8,7 +8,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-15 10:41+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2016-02-20 10:36+0000\n"
+=======
+"PO-Revision-Date: 2016-07-21 11:10+0000\n"
+>>>>>>> 8bc590a7b939e23336557b24bae11dc1b11dfd16
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Arabic (http://www.transifex.com/odoo/odoo-9/language/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -556,7 +560,7 @@ msgstr "تجميع حسب"
 #. module: hr
 #: model:ir.model,name:hr.model_hr_department
 msgid "HR Department"
-msgstr ""
+msgstr "قسم الموارد البشرية"
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
@@ -1186,7 +1190,7 @@ msgstr "المرؤوسين"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users_subscription_count
 msgid "Subscriptions"
-msgstr ""
+msgstr "الاشتراكات"
 
 #. module: hr
 #: sql_constraint:hr.employee.category:0

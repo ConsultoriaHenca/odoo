@@ -8,7 +8,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-29 10:26+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-10-22 12:05+0000\n"
+=======
+"PO-Revision-Date: 2016-07-20 14:41+0000\n"
+>>>>>>> 8bc590a7b939e23336557b24bae11dc1b11dfd16
 "Last-Translator: Yoshi Tashiro <tashiro@roomsfor.hk>\n"
 "Language-Team: Japanese (http://www.transifex.com/odoo/odoo-9/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -268,7 +272,7 @@ msgstr "表示名"
 #: code:addons/web_editor/static/src/xml/editor.xml:44
 #, python-format
 msgid "Document"
-msgstr "文書"
+msgstr "ドキュメント"
 
 #. module: web_editor
 #. openerp-web
