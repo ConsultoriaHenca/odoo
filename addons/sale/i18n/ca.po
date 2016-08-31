@@ -5,13 +5,14 @@
 # Translators:
 # Jordi Morató Lluvià <jmorato@mibrit.com>, 2016
 # Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2015-2016
+# RGB Consulting <odoo@rgbconsulting.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-09 09:17+0000\n"
-"PO-Revision-Date: 2016-05-02 10:46+0000\n"
-"Last-Translator: Marc Tormo i Bochaca <mtbochaca@gmail.com>\n"
+"PO-Revision-Date: 2016-08-29 08:15+0000\n"
+"Last-Translator: RGB Consulting <odoo@rgbconsulting.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/odoo/odoo-9/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1104,7 +1105,7 @@ msgstr "Quantitats demanades"
 #: model:ir.actions.act_window,name:sale.action_orders_upselling
 #: model:ir.ui.menu,name:sale.menu_sale_order_upselling
 msgid "Orders to Upsell"
-msgstr ""
+msgstr "Comandes per augmentar les vendes"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
@@ -1452,7 +1453,7 @@ msgstr "Línies de comandes de venda a punt per ser facturades"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "Sales Order Lines related to a Sales Order of mine"
-msgstr ""
+msgstr "Línies de comandes de vendes relacionades com una comanda de venda meva"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_order_filter

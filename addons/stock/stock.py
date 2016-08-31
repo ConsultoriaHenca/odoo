@@ -457,7 +457,8 @@ class stock_quant(osv.osv):
         if ops:
             restrict_lot_id = lot_id
             location = ops.location_id
-            domain += [('owner_id', '=', ops.owner_id.id)]
+            if ops.owner_id:
+                domain += [('owner_id', '=', ops.owner_id.id)]
             if ops.package_id and not ops.product_id:
                 domain += [('package_id', 'child_of', ops.package_id.id)]
             elif ops.package_id and ops.product_id:
@@ -468,7 +469,8 @@ class stock_quant(osv.osv):
         else:
             restrict_lot_id = move.restrict_lot_id.id
             location = move.location_id
-            domain += [('owner_id', '=', move.restrict_partner_id.id)]
+            if move.restrict_partner_id:
+                domain += [('owner_id', '=', move.restrict_partner_id.id)]
             domain += [('location_id', 'child_of', move.location_id.id)]
         if context.get('force_company'): 
             domain += [('company_id', '=', context.get('force_company'))]
@@ -2461,7 +2463,7 @@ class stock_move(osv.osv):
                 rounding = ops.product_id.uom_id.rounding
                 for pack_lot in ops.pack_lot_ids:
                     lot_qty[pack_lot.lot_id.id] = uom_obj._compute_qty(cr, uid, ops.product_uom_id.id, pack_lot.qty, ops.product_id.uom_id.id)
-                for record in ops.linked_move_operation_ids:
+                for record in ops.linked_move_operation_ids.filtered(lambda x: x.move_id.id in main_domain):
                     move_qty = record.qty
                     move = record.move_id
                     domain = main_domain[move.id]
