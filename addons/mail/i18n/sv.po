@@ -14,7 +14,7 @@ msgstr ""
 "Last-Translator: Patrik Lermon <patrik.lermon@gmail.com>\n"
 =======
 "POT-Creation-Date: 2016-07-22 13:00+0000\n"
-"PO-Revision-Date: 2016-09-02 12:13+0000\n"
+"PO-Revision-Date: 2016-09-09 08:46+0000\n"
 "Last-Translator: Martin Trigaux\n"
 >>>>>>> 8bc590a7b939e23336557b24bae11dc1b11dfd16
 "Language-Team: Swedish (http://www.transifex.com/odoo/odoo-9/language/sv/)\n"
@@ -1185,7 +1185,7 @@ msgstr ""
 #. module: mail
 #: selection:mail.alias,alias_contact:0 selection:mail.channel,public:0
 msgid "Everyone"
-msgstr ""
+msgstr "Alla"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_search
