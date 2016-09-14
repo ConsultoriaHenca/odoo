@@ -1753,7 +1753,7 @@ class stock_picking(models.Model):
             if operations:
                 stock_operation_obj.check_tracking(cr, uid, pack_operation_ids, context=context)
                 package_id = package_obj.create(cr, uid, {}, context=context)
-                stock_operation_obj.write(cr, uid, pack_operation_ids, {'result_package_id': package_id}, context=context)
+                stock_operation_obj.write(cr, uid, pack_operation_ids, {'result_package_id': package_id.id}, context=context)
             else:
                 raise UserError(_('Please process some quantities to put in the pack first!'))
         return package_id
