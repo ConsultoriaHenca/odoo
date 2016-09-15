@@ -888,7 +888,7 @@ QWERTY keyboard</field>
     Resource: product.supplierinfo
     -->
 
-        <record id="product_supplierinfo_1" model="product.supplierinfo">
+        <!-- <record id="product_supplierinfo_1" model="product.supplierinfo">
             <field name="product_tmpl_id" ref="product_product_6_product_template"/>
             <field name="name" ref="base.res_partner_1"/>
             <field name="delay">3</field>
@@ -1262,7 +1262,7 @@ QWERTY keyboard</field>
             <field name="delay">2</field>
             <field name="min_qty">0</field>
             <field name="price">13.50</field>
-        </record>
+        </record> -->
 
     </data>
 </openerp>
