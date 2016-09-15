@@ -285,7 +285,7 @@ FaceTime HD Camera, 1.2 MP Photos</field>
             <field name="default_code">A6678</field>
             <field name="attribute_value_ids" eval="[(6,0,[ref('product.product_attribute_value_1')])]"/>
         </record>
-        <record id="product_product_11b" model="product.product">
+        <!--<record id="product_product_11b" model="product.product">
             <field name="default_code">A6679</field>
             <field name="product_tmpl_id" ref="product_product_11_product_template"/>
             <field name="attribute_value_ids" eval="[(6,0,[ref('product.product_attribute_value_2')])]"/>
@@ -305,7 +305,7 @@ FaceTime HD Camera, 1.2 MP Photos</field>
             <field name="product_tmpl_id" ref="product_product_11_product_template"/>
             <field name="value_id" ref="product_attribute_value_2"/>
             <field name="price_extra">6.40</field>
-        </record>
+        </record> -->
 
         <!-- -->
 
