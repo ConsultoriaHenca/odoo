@@ -146,7 +146,7 @@ FaceTime HD Camera, 1.2 MP Photos</field>
             <field name="default_code">A2324</field>
             <field name="product_tmpl_id" ref="product_product_4_product_template"/>
             <field name="attribute_value_ids" eval="[(6,0,[ref('product.product_attribute_value_1'), ref('product.product_attribute_value_4')])]"/>
-        </record>-->
+        </record>
         <record id="product_product_4c" model="product.product">
             <field name="default_code">A2325</field>
             <field name="product_tmpl_id" ref="product_product_4_product_template"/>
@@ -156,7 +156,7 @@ FaceTime HD Camera, 1.2 MP Photos</field>
             <field name="default_code">A2326</field>
             <field name="product_tmpl_id" ref="product_product_4_product_template"/>
             <field name="attribute_value_ids" eval="[(6,0,[ref('product.product_attribute_value_2'), ref('product.product_attribute_value_4')])]"/>
-        </record>
+        </record>-->
 
         <record id="product_attribute_line_1" model="product.attribute.line">
             <field name="product_tmpl_id" ref="product_product_4_product_template"/>
