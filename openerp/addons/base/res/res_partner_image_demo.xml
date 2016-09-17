@@ -2,7 +2,7 @@
 <openerp>
     <data noupdate="0">
 
-        <record id="base.res_partner_address_1" model="res.partner">
+<!--        <record id="base.res_partner_address_1" model="res.partner">
             <field name="image" type="base64" file="base/static/img/res_partner_address_1-image.png"/>
         </record>
 
@@ -84,7 +84,7 @@
 
         <record id="base.res_partner_address_34" model="res.partner">
             <field name="image" type="base64" file="base/static/img/res_partner_address_34-image.png"/>
-        </record>
+        </record> -->
 
         <record id="base.res_partner_main1" model="res.partner">
             <field name="image" type="base64" file="base/static/img/res_partner_main1-image.png"/>
