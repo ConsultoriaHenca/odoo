@@ -12,12 +12,17 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2016-01-13 14:27+0000\n"
 "PO-Revision-Date: 2016-06-08 09:38+0000\n"
 "Last-Translator: Mario Jureša <mario.juresa@uvid.hr>\n"
 =======
 "POT-Creation-Date: 2016-07-22 13:00+0000\n"
 "PO-Revision-Date: 2016-07-23 09:04+0000\n"
+=======
+"POT-Creation-Date: 2016-09-22 13:16+0000\n"
+"PO-Revision-Date: 2016-09-23 08:58+0000\n"
+>>>>>>> b33415f3bda016140edbcf99cc2292c1d32bca07
 "Last-Translator: Martin Trigaux\n"
 >>>>>>> 8bc590a7b939e23336557b24bae11dc1b11dfd16
 "Language-Team: Croatian (http://www.transifex.com/odoo/odoo-9/language/hr/)\n"
@@ -865,10 +870,15 @@ msgstr ""
 
 #. module: mail
 #. openerp-web
-#: code:addons/mail/static/src/js/client_action.js:250
+#: code:addons/mail/static/src/js/client_action.js:300
 #, python-format
 msgid "Create %s"
 msgstr "Kreiraj %s"
+
+#. module: mail
+#: model:ir.model.fields,field_description:mail.field_mail_channel_create_date
+msgid "Create Date"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_create_uid
@@ -889,7 +899,6 @@ msgstr "Kreirao"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_create_date
 #: model:ir.model.fields,field_description:mail.field_mail_alias_create_date
-#: model:ir.model.fields,field_description:mail.field_mail_channel_create_date
 #: model:ir.model.fields,field_description:mail.field_mail_channel_partner_create_date
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_create_date
 #: model:ir.model.fields,field_description:mail.field_mail_mail_create_date

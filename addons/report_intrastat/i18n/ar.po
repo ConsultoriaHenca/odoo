@@ -10,10 +10,14 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2016-03-17 09:55+0000\n"
 =======
 "PO-Revision-Date: 2016-07-19 20:27+0000\n"
 >>>>>>> 8bc590a7b939e23336557b24bae11dc1b11dfd16
+=======
+"PO-Revision-Date: 2016-09-23 03:21+0000\n"
+>>>>>>> b33415f3bda016140edbcf99cc2292c1d32bca07
 "Last-Translator: Sadig Adam <sadig41@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/odoo/odoo-9/language/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -50,12 +54,12 @@ msgstr ""
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
 msgid "<strong>Payment Term:</strong>"
-msgstr ""
+msgstr "<strong>شروط الدفع:</strong>"
 
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
 msgid "<strong>Total Without Taxes</strong>"
-msgstr ""
+msgstr "<strong>المجموع بدون الضريبة</strong>"
 
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
