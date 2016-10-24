@@ -9,7 +9,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-09-08 10:33+0000\n"
+=======
+"PO-Revision-Date: 2016-10-12 00:34+0000\n"
+>>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Swedish (http://www.transifex.com/odoo/odoo-9/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +30,7 @@ msgstr "<span title=\"Track this page to count clicks\">Dela den här sidan</spa
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Campaign</strong>"
-msgstr ""
+msgstr "<strong>Kampanj</strong>"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
