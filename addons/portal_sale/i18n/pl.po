@@ -18,11 +18,15 @@ msgstr ""
 =======
 "POT-Creation-Date: 2016-07-22 11:24+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2016-07-23 10:09+0000\n"
 >>>>>>> 8bc590a7b939e23336557b24bae11dc1b11dfd16
 "Last-Translator: Martin Trigaux\n"
 =======
 "PO-Revision-Date: 2016-09-26 15:28+0000\n"
+=======
+"PO-Revision-Date: 2016-10-04 19:14+0000\n"
+>>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7
 "Last-Translator: zbik2607 <darek@krokus.com.pl>\n"
 >>>>>>> b33415f3bda016140edbcf99cc2292c1d32bca07
 "Language-Team: Polish (http://www.transifex.com/odoo/odoo-9/language/pl/)\n"
@@ -205,7 +209,7 @@ msgstr "Faktura"
 msgid ""
 "Invoice_${(object.number or '').replace('/','_')}_${object.state == 'draft' "
 "and 'draft' or ''}"
-msgstr "Faktura_${(object.number or '').replace('/','_')}_${object.state == 'draft' and 'draft' or ''}"
+msgstr "Faktura_${(object.number or '').replace('/','_')}_${object.state == 'draft' and 'szkic' or ''}"
 
 #. module: portal_sale
 #: model:ir.actions.act_window,name:portal_sale.portal_action_invoices
