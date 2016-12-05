@@ -12,10 +12,14 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-13 09:40+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2016-05-31 12:30+0000\n"
 "Last-Translator: Martin Trigaux\n"
 =======
 "PO-Revision-Date: 2016-10-18 17:15+0000\n"
+=======
+"PO-Revision-Date: 2016-11-26 18:22+0000\n"
+>>>>>>> 9a8e44e01dfeba92b6e077ed100bcd16455412f1
 "Last-Translator: Cem Uygur <cemuygur.beb@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/odoo/odoo-9/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -324,7 +328,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
 #: model:ir.ui.view,arch_db:stock.report_picking
 msgid "<span><strong>Customer Address:</strong></span>"
-msgstr ""
+msgstr "<span><strong>Müşteri Adresi:</strong></span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_picking
@@ -334,7 +338,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_picking
 msgid "<span><strong>Vendor Address:</strong></span>"
-msgstr ""
+msgstr "<span><strong>Tedarilçi Adresi:</strong></span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_picking
@@ -443,13 +447,13 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Inventory</strong>"
-msgstr ""
+msgstr "<strong>Envanter</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
 #: model:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Location</strong>"
-msgstr ""
+msgstr "<strong>Lokasyon</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -521,7 +525,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Package</strong>"
-msgstr ""
+msgstr "<strong>Paket</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
@@ -563,7 +567,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Source</strong>"
-msgstr ""
+msgstr "<strong>Kaynak</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_picking
@@ -585,7 +589,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Total Quantity</strong>"
-msgstr ""
+msgstr "<strong>Tomlam Miktar</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -718,7 +722,7 @@ msgstr "Tüm Operasyonlar"
 #: model:ir.actions.act_window,name:stock.stock_picking_action_picking_type
 #: model:ir.ui.menu,name:stock.all_picking
 msgid "All Transfers"
-msgstr ""
+msgstr "Tüm Transferler"
 
 #. module: stock
 #: selection:stock.picking,move_type:0
@@ -920,7 +924,7 @@ msgstr "Barcode"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_stock_config_settings
 msgid "Barcode Interface"
-msgstr ""
+msgstr "Barkod Arayüzü"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type_barcode_nomenclature_id
@@ -947,7 +951,7 @@ msgstr ""
 #. module: stock
 #: model:stock.location,name:stock.stock_location_4
 msgid "Big Vendors"
-msgstr ""
+msgstr "Büyük Tedarikçiler"
 
 #. module: stock
 #: selection:stock.warehouse,delivery_steps:0
@@ -1054,7 +1058,7 @@ msgstr "Tamamlanmış bir hareketin rezervasyonu geri alınamaz"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_stock_config_settings
 msgid "Carriers"
-msgstr ""
+msgstr "Nakliyeci"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product_route_from_categ_ids
@@ -1268,7 +1272,7 @@ msgstr "Onaylanan Hareketler"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Congratulations!"
-msgstr ""
+msgstr "Tebrikler!"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_stock_lines_date_search
@@ -1333,12 +1337,12 @@ msgstr "Satıcı Oluştur"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Create a Quotation"
-msgstr ""
+msgstr "Teklif Oluştur"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Create a RFQ"
-msgstr ""
+msgstr "Teklif İsteği Oluştur"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_backorder_confirmation
@@ -1434,7 +1438,7 @@ msgstr "Oluşturuldu"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_procurement_rule_form_stock_inherit
 msgid "Creates"
-msgstr ""
+msgstr "Oluşturur"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_move_search
@@ -1468,7 +1472,7 @@ msgstr "Depo Rotaları"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_report_stock_forecast_cumulative_quantity
 msgid "Cumulative Quantity"
-msgstr ""
+msgstr "Kümülatif Miktar"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.location_open_quants
@@ -1805,7 +1809,7 @@ msgstr "Hedef Lokasyonu"
 #: model:ir.model.fields,field_description:stock.field_stock_picking_location_dest_id
 #: model:ir.ui.view,arch_db:stock.view_stock_quant_form
 msgid "Destination Location Zone"
-msgstr ""
+msgstr "Hedef Lokasyon Bölgesi"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_order_move_dest_id
@@ -1967,7 +1971,7 @@ msgstr "Taslak Hareketler"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_config_settings_module_stock_dropshipping
 msgid "Dropshipping"
-msgstr ""
+msgstr "Transit Satış"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -2040,7 +2044,7 @@ msgstr "FIFO, LIFO..."
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_config_settings_module_delivery_fedex
 msgid "Fedex integration"
-msgstr ""
+msgstr "Fedex entegrasyonu"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.quant_search_view
@@ -2127,7 +2131,7 @@ msgstr "From:"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location_complete_name
 msgid "Full Location Name"
-msgstr ""
+msgstr "Tam Lokasyon Adı"
 
 #. module: stock
 #: code:addons/stock/product.py:303
@@ -2172,7 +2176,7 @@ msgstr "B Kapısı"
 #. module: stock
 #: model:stock.location,name:stock.stock_location_5
 msgid "Generic IT Vendors"
-msgstr ""
+msgstr "Genel IT Tedarikçileri"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_fixed_putaway_strat_sequence
@@ -2532,7 +2536,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Import using the top left button in"
-msgstr ""
+msgstr "Sol üstteki tuşu kullanarak içe aktarın"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -2806,7 +2810,7 @@ msgstr "Envanter Konumları"
 #. module: stock
 #: selection:stock.location,usage:0
 msgid "Inventory Loss"
-msgstr ""
+msgstr "Envanter Zararı"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_inventory_move_ids
@@ -2832,7 +2836,7 @@ msgstr "Envanter Rotaları"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Inventory Settings"
-msgstr ""
+msgstr "Envanter Ayarları"
 
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_quants
@@ -2871,7 +2875,7 @@ msgstr "Takipçi mi"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location_return_location
 msgid "Is a Return Location?"
-msgstr ""
+msgstr "Bu İade Konumumu?"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location_scrap_location
@@ -3537,7 +3541,7 @@ msgstr "Ad"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.quant_search_view
 msgid "Negative"
-msgstr ""
+msgstr "Negatif"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant_negative_dest_location_id
@@ -3737,12 +3741,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.product_form_view_procurement_button
 #: model:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 msgid "On Hand"
-msgstr ""
+msgstr " Stokta"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "On Hand / Available Quantities"
-msgstr ""
+msgstr "Stokta / Mevcut Miktarlar"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.product_template_kanban_stock_view
@@ -4290,7 +4294,7 @@ msgstr "Lütfencsıfır olmayan  enaz bir miktar girin."
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.quant_search_view
 msgid "Positive"
-msgstr ""
+msgstr "Pozitif"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_make_procurement_route_ids
@@ -4466,7 +4470,7 @@ msgstr "Ürün Adı"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_config_settings_group_stock_tracking_owner
 msgid "Product Owners"
-msgstr ""
+msgstr "Ürün Sahipleri"
 
 #. module: stock
 #: model:ir.model,name:stock.model_product_template
@@ -4477,7 +4481,7 @@ msgstr "Ürün Şablonu"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Product Types"
-msgstr ""
+msgstr "Ürün Türü"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_line_product_uom_id
@@ -5036,7 +5040,7 @@ msgstr "Rotalar"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Routes Management"
-msgstr ""
+msgstr "Rota Yönetimi"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_resupply_route_ids
@@ -5327,7 +5331,7 @@ msgstr "Kaynak Konumu"
 #: model:ir.model.fields,field_description:stock.field_stock_picking_location_id
 #: model:ir.ui.view,arch_db:stock.view_stock_quant_form
 msgid "Source Location Zone"
-msgstr ""
+msgstr "Kaynak Konumu Bölgesi"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_pack_operation_package_id
@@ -6117,7 +6121,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_picking_id
 msgid "Transfer Reference"
-msgstr ""
+msgstr "Transfer Referansı"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_tree
@@ -6375,7 +6379,7 @@ msgstr "Satıcı Konumu"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_location_search
 msgid "Vendor Locations"
-msgstr ""
+msgstr "Tedarikçi Konumları"
 
 #. module: stock
 #: model:stock.location,name:stock.stock_location_suppliers
