@@ -8,8 +8,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
 "POT-Creation-Date: 2016-01-13 14:27+0000\n"
 "PO-Revision-Date: 2016-05-26 15:13+0000\n"
 "Last-Translator: Patrik Lermon <patrik.lermon@gmail.com>\n"
@@ -19,9 +17,7 @@ msgstr ""
 =======
 "POT-Creation-Date: 2016-09-22 13:16+0000\n"
 "PO-Revision-Date: 2016-09-23 08:58+0000\n"
->>>>>>> b33415f3bda016140edbcf99cc2292c1d32bca07
 "Last-Translator: Martin Trigaux\n"
->>>>>>> 8bc590a7b939e23336557b24bae11dc1b11dfd16
 "Language-Team: Swedish (http://www.transifex.com/odoo/odoo-9/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

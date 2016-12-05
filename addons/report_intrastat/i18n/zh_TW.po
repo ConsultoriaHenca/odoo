@@ -8,11 +8,9 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
-<<<<<<< HEAD
 "PO-Revision-Date: 2016-02-10 09:29+0000\n"
 =======
 "PO-Revision-Date: 2016-10-19 06:29+0000\n"
->>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"

@@ -10,13 +10,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
-<<<<<<< HEAD
 "PO-Revision-Date: 2016-06-02 13:25+0000\n"
 "Last-Translator: Piotr Szlązak <szlazakpiotr@gmail.com>\n"
 =======
 "PO-Revision-Date: 2016-10-06 09:00+0000\n"
 "Last-Translator: zbik2607 <darek@krokus.com.pl>\n"
->>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7
 "Language-Team: Polish (http://www.transifex.com/odoo/odoo-9/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,11 +30,9 @@ msgstr "Pozycja analityczna"
 #. module: sale_expense
 #: selection:product.template,expense_policy:0
 msgid "At Cost"
-<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "W kosztach"
->>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7
 
 #. module: sale_expense
 #: selection:product.template,expense_policy:0

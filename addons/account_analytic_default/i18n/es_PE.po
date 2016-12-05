@@ -8,20 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
 "POT-Creation-Date: 2015-09-07 14:40+0000\n"
 "PO-Revision-Date: 2016-06-11 21:14+0000\n"
 "Last-Translator: Carlos Eduardo Rodriguez Rossi <crodriguez@samemotion.com>\n"
 =======
 "POT-Creation-Date: 2016-09-22 13:16+0000\n"
-<<<<<<< HEAD
 "PO-Revision-Date: 2016-09-23 08:30+0000\n"
 "Last-Translator: Martin Trigaux\n"
->>>>>>> b33415f3bda016140edbcf99cc2292c1d32bca07
 =======
 "PO-Revision-Date: 2016-10-07 16:59+0000\n"
 "Last-Translator: Carlos Eduardo Rodriguez Rossi <crodriguez@samemotion.com>\n"
->>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7
 "Language-Team: Spanish (Peru) (http://www.transifex.com/odoo/odoo-9/language/es_PE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

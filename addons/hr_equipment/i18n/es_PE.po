@@ -8,7 +8,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
 "POT-Creation-Date: 2015-09-29 10:27+0000\n"
 "PO-Revision-Date: 2016-06-10 22:23+0000\n"
 "Last-Translator: Carlos Eduardo Rodriguez Rossi <crodriguez@samemotion.com>\n"
@@ -16,7 +15,6 @@ msgstr ""
 "POT-Creation-Date: 2016-09-22 13:18+0000\n"
 "PO-Revision-Date: 2016-09-23 09:55+0000\n"
 "Last-Translator: Martin Trigaux\n"
->>>>>>> b33415f3bda016140edbcf99cc2292c1d32bca07
 "Language-Team: Spanish (Peru) (http://www.transifex.com/odoo/odoo-9/language/es_PE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -623,7 +621,6 @@ msgid "Messages"
 msgstr "Mensajes"
 
 #. module: hr_equipment
-<<<<<<< HEAD
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_category_message_ids
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_message_ids
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_request_message_ids
@@ -632,7 +629,6 @@ msgstr ""
 
 #. module: hr_equipment
 =======
->>>>>>> b33415f3bda016140edbcf99cc2292c1d32bca07
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_model
 msgid "Model"
 msgstr ""

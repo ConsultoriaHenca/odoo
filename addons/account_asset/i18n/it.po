@@ -11,13 +11,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
 "POT-Creation-Date: 2016-01-15 09:26+0000\n"
 "PO-Revision-Date: 2016-05-13 13:22+0000\n"
 =======
 "POT-Creation-Date: 2016-09-22 13:16+0000\n"
 "PO-Revision-Date: 2016-09-23 08:50+0000\n"
->>>>>>> b33415f3bda016140edbcf99cc2292c1d32bca07
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Italian (http://www.transifex.com/odoo/odoo-9/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -451,14 +449,12 @@ msgstr "Riga Ammortamento"
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
-<<<<<<< HEAD
 msgid "Depreciation Asset Account"
 msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 =======
->>>>>>> b33415f3bda016140edbcf99cc2292c1d32bca07
 msgid "Depreciation Expense Account"
 msgstr ""
 
@@ -1068,7 +1064,6 @@ msgid "Year"
 msgstr "Anno"
 
 #. module: account_asset
-<<<<<<< HEAD
 #: code:addons/account_asset/account_asset_invoice.py:53
 #, python-format
 msgid ""
@@ -1080,7 +1075,6 @@ msgstr ""
 #: code:addons/account_asset/account_asset.py:100
 =======
 #: code:addons/account_asset/account_asset.py:97
->>>>>>> b33415f3bda016140edbcf99cc2292c1d32bca07
 #, python-format
 msgid "You cannot delete a document is in %s state."
 msgstr "Non è possibile cancellare un documento nello stato %s."

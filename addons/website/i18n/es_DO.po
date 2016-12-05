@@ -4,19 +4,16 @@
 #
 # Translators:
 # Alejandro Die Sanchis <marketing@domatix.com>, 2015
-<<<<<<< HEAD
 # Ivan Nieto <ivan.nieto.sousa@gmail.com>, 2016
 =======
 # Eneldo Serrata <eneldoserrata@gmail.com>, 2016
 # Ivan Nieto <ivan.nieto.sousa@gmail.com>, 2016
 # Juliano Henriquez <juliano@consultoriahenca.com>, 2016
->>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7
 # Paloma Yazmin Reyes Morales <paloma.reyes@jarsa.com.mx>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
 "PO-Revision-Date: 2016-03-04 21:07+0000\n"
 "Last-Translator: Ivan Nieto <ivan.nieto.sousa@gmail.com>\n"
@@ -26,7 +23,6 @@ msgstr ""
 "PO-Revision-Date: 2016-10-21 01:51+0000\n"
 "Last-Translator: Eneldo Serrata <eneldoserrata@gmail.com>\n"
 "Language-Team: Spanish (Dominican Republic) (http://www.transifex.com/odoo/odoo-9/language/es_DO/)\n"
->>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -38,7 +34,6 @@ msgstr ""
 msgid "&amp;times;"
 msgstr "&amp;times;"
 
-<<<<<<< HEAD
 #. module: website_mass_mailing
 #: model:ir.ui.view,arch_db:website_mass_mailing.website_popup_snippet
 msgid "<span class=\"oe_snippet_thumbnail_title\">Newsletter Popup</span>"
@@ -4278,7 +4273,6 @@ msgid ""
 "                        prospects that it's sometimes difficult to know what to put your energy into. Here is\n"
 "                        some advice on what to focus on next."
 msgstr "Su sitio web es una parte importante de su estrategia de negocio en línea, pero no debe ser\nel único. Hay tantas maneras de comunicarse con sus clientes, visitantes y las perspectivas que a veces es difícil saber qué poner su energía. He aquí \nalgunos consejos sobre lo que debe centrarse para continuar."
->>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7
 
 #. module: website_mass_mailing
 #: model:ir.ui.view,arch_db:website_mass_mailing.mailing_list_subscribe
@@ -4288,7 +4282,6 @@ msgstr "<span class=\"oe_snippet_thumbnail_title\">Newsletter</span>"
 #. module: website_mass_mailing
 #: model:ir.ui.view,arch_db:website_mass_mailing.website_popup_snippet
 msgid ""
-<<<<<<< HEAD
 "<strong>Newsletter Popup!</strong> The newsletter popup snippet effect is "
 "active on this page. Click"
 msgstr "<strong>¡Ventana Emergente de Newsletter!</strong> El snippet del efecto de Ventana Emergente de Newsletter está activo en esta página. Click"
@@ -4445,7 +4438,6 @@ msgstr "ir.acciones.server"
 #: model:ir.model,name:website.model_ir_attachment
 msgid "ir.attachment"
 msgstr "ir.attachment"
->>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7
 
 #. module: website_mass_mailing
 #. openerp-web
@@ -4472,7 +4464,6 @@ msgstr "Cambiar boletín de noticias"
 msgid "Choose your mailing subscriptions."
 msgstr ""
 
-<<<<<<< HEAD
 #. module: website_mass_mailing
 #: model:ir.ui.view,arch_db:website_mass_mailing.website_popup_snippet
 msgid "Here To Edit Dialog Content"
@@ -4493,13 +4484,11 @@ msgstr "sitemap-"
 #: model:ir.ui.view,arch_db:website.robots
 msgid "sitemap.xml"
 msgstr "sitemap.xml"
->>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7
 
 #. module: website_mass_mailing
 #. openerp-web
 #: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.editor.js:24
 #, python-format
-<<<<<<< HEAD
 msgid "Newsletter"
 msgstr "Boletín de noticias"
 =======
@@ -4519,7 +4508,6 @@ msgid ""
 "to do that (make sure the Advanced Options are set to your country and\n"
 "                                    language)."
 msgstr "para hacer eso (asegúrese que las Opciones Avanzadas tienen establecidos su país \ne idioma)."
->>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7
 
 #. module: website_mass_mailing
 #: model:ir.ui.view,arch_db:website_mass_mailing.mailing_list_subscribe
@@ -4544,7 +4532,6 @@ msgstr "¡Gracias por su suscripción!"
 msgid "Type Here ..."
 msgstr ""
 
-<<<<<<< HEAD
 #. module: website_mass_mailing
 #: model:ir.ui.view,arch_db:website_mass_mailing.unsubscribe
 msgid "You are not subscribed to any of our mailing list."
@@ -4565,4 +4552,3 @@ msgstr "su correo electrónico..."
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "your Company details form"
 msgstr "Formulario de detalles de su Compañía"
->>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7

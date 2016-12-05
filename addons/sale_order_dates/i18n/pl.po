@@ -3,23 +3,19 @@
 # * sale_order_dates
 # 
 # Translators:
-<<<<<<< HEAD
 =======
 # zbik2607 <darek@krokus.com.pl>, 2016
 # Piotr Szlązak <szlazakpiotr@gmail.com>, 2016
->>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
-<<<<<<< HEAD
 "PO-Revision-Date: 2015-09-08 08:03+0000\n"
 "Last-Translator: Martin Trigaux\n"
 =======
 "PO-Revision-Date: 2016-10-14 15:31+0000\n"
 "Last-Translator: zbik2607 <darek@krokus.com.pl>\n"
->>>>>>> 9973c4cda77e566ad659890d5d5372f2dd1d82b7
 "Language-Team: Polish (http://www.transifex.com/odoo/odoo-9/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
