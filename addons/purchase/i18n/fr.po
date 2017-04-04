@@ -19,10 +19,14 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-09 09:18+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2016-05-31 07:54+0000\n"
 "Last-Translator: Shark McGnark <peculiarcheese@gmail.com>\n"
 =======
 "PO-Revision-Date: 2017-01-31 09:11+0000\n"
+=======
+"PO-Revision-Date: 2017-03-26 13:21+0000\n"
+>>>>>>> 659103718f3362d7804db29633f77419e8ff2abb
 "Last-Translator: Martin Trigaux\n"
 >>>>>>> 816b19ed56cf6ec37b431a2018fd7726f4386504
 "Language-Team: French (http://www.transifex.com/odoo/odoo-9/language/fr/)\n"
@@ -1827,6 +1831,15 @@ msgid ""
 msgstr "Vous devez définir un produit pour tout ce que vous achetez, que ce soit \nun produit physique, un consommable ou des services que vous achetez à des \nsous-traitants. "
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: code:addons/purchase/purchase.py:335
+#, python-format
+msgid "You must set a Vendor Location for this partner %s"
+msgstr "Vous devez définir une adresse pour ce tiers, %s."
+
+#. module: purchase
+>>>>>>> 659103718f3362d7804db29633f77419e8ff2abb
 #: model:ir.model,name:purchase.model_account_config_settings
 msgid "account.config.settings"
 msgstr "account.config.settings"
