@@ -272,8 +272,9 @@ var ScaleScreenWidget = ScreenWidget.extend({
         });
 
         this.$('.next,.buy-product').click(function(){
-            self.order_product();
             self.gui.show_screen(self.next_screen);
+            // add product *after* switching screen to scroll properly
+            self.order_product();
         });
 
         queue.schedule(function(){
@@ -937,10 +938,12 @@ var ProductScreenWidget = ScreenWidget.extend({
        }
     },
 
-    show: function(){
+    show: function(reset){
         this._super();
-        this.product_categories_widget.reset_category();
-        this.numpad.state.reset();
+        if (reset) {
+            this.product_categories_widget.reset_category();
+            this.numpad.state.reset();
+        }
     },
 
     close: function(){
@@ -1296,6 +1299,9 @@ var ClientListScreenWidget = ScreenWidget.extend({
             var new_height   = contents.height();
 
             if(!this.details_visible){
+                // resize client list to take into account client details
+                parent.height('-=' + new_height);
+
                 if(clickpos < scroll + new_height + 20 ){
                     parent.scrollTop( clickpos - 20 );
                 }else{
@@ -1325,6 +1331,7 @@ var ClientListScreenWidget = ScreenWidget.extend({
             });
         } else if (visibility === 'hide') {
             contents.empty();
+            parent.height('100%');
             if( height > scroll ){
                 contents.css({height:height+'px'});
                 contents.animate({height:0},400,function(){
@@ -1396,10 +1403,9 @@ var ReceiptScreenWidget = ScreenWidget.extend({
             pos:     this.pos,
             order:   this.pos.get_order(),
             receipt: this.pos.get_order().export_for_printing(),
-            paymentlines: this.pos.get_order().get_paymentlines()
+	    paymentlines: this.pos.get_order().get_paymentlines()
         };
         var receipt = QWeb.render('XmlReceipt',env);
-
         this.pos.proxy.print_receipt(receipt);
         this.pos.get_order()._printed = true;
     },
@@ -1831,7 +1837,7 @@ var PaymentScreenWidget = ScreenWidget.extend({
         var plines = order.get_paymentlines();
         for (var i = 0; i < plines.length; i++) {
             if (plines[i].get_type() === 'bank' && plines[i].get_amount() < 0) {
-                this.pos_widget.screen_selector.show_popup('error',{
+                this.gui.show_popup('error',{
                     'message': _t('Negative Bank Payment'),
                     'comment': _t('You cannot have a negative amount in a Bank payment. Use a cash payment method to return money to the customer.'),
                 });

@@ -9,7 +9,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:11+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2016-05-10 14:58+0000\n"
+=======
+"PO-Revision-Date: 2017-03-12 11:29+0000\n"
+>>>>>>> 659103718f3362d7804db29633f77419e8ff2abb
 "Last-Translator: Morten Schou <ms@msteknik.dk>\n"
 "Language-Team: Danish (http://www.transifex.com/odoo/odoo-9/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -217,7 +221,7 @@ msgstr "Annulleret"
 #. module: account_budget
 #: model:ir.actions.act_window,help:account_budget.act_crossovered_budget_view
 msgid "Click to create a new budget."
-msgstr ""
+msgstr "Klik her for at oprette et nyt budget."
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_post_company_id
