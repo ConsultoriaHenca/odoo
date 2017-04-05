@@ -5,7 +5,6 @@
 # Translators:
 # Alejandro Die Sanchis <marketing@domatix.com>, 2015
 # Ivan Nieto <ivan.nieto.sousa@gmail.com>, 2016
-=======
 # Eneldo Serrata <eneldoserrata@gmail.com>, 2016
 # Ivan Nieto <ivan.nieto.sousa@gmail.com>, 2016
 # Juliano Henriquez <juliano@consultoriahenca.com>, 2016
@@ -18,7 +17,6 @@ msgstr ""
 "PO-Revision-Date: 2016-03-04 21:07+0000\n"
 "Last-Translator: Ivan Nieto <ivan.nieto.sousa@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/odoo/odoo-9/language/es/)\n"
-=======
 "POT-Creation-Date: 2015-10-09 09:18+0000\n"
 "PO-Revision-Date: 2016-10-21 01:51+0000\n"
 "Last-Translator: Eneldo Serrata <eneldoserrata@gmail.com>\n"
@@ -38,7 +36,7 @@ msgstr "&amp;times;"
 #: model:ir.ui.view,arch_db:website_mass_mailing.website_popup_snippet
 msgid "<span class=\"oe_snippet_thumbnail_title\">Newsletter Popup</span>"
 msgstr ""
-=======
+
 #. module: website
 #: model:ir.ui.view,arch_db:website.layout
 msgid "&lt;!DOCTYPE html&gt;"
@@ -4284,11 +4282,10 @@ msgstr "<span class=\"oe_snippet_thumbnail_title\">Newsletter</span>"
 msgid ""
 "<strong>Newsletter Popup!</strong> The newsletter popup snippet effect is "
 "active on this page. Click"
-msgstr "<strong>¡Ventana Emergente de Newsletter!</strong> El snippet del efecto de Ventana Emergente de Newsletter está activo en esta página. Click"
-=======
-"a reference to your new website. We will retweet it (we have 30,000 "
-"followers) and feature it in our different communications."
-msgstr "una referencia a su nuevo sitio web. Lo vamos a retuitear (tenemos 30.000 seguidores) y recomendarlo en nuestras diferentes medios."
+msgstr ""
+"<strong>¡Ventana Emergente de Newsletter!</strong> El snippet del efecto de Ventana Emergente de Newsletter está activo en esta página. Click"
+"a reference to your new website. We will retweet it (we have 30,000 followers) and feature it in our different communications."
+"una referencia a su nuevo sitio web. Lo vamos a retuitear (tenemos 30.000 seguidores) y recomendarlo en nuestras diferentes medios."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4474,7 +4471,7 @@ msgstr "Aquí para editar dialogo de contenido"
 #: model:ir.ui.view,arch_db:website_mass_mailing.unsubscribed
 msgid "Mailing Subscriptions"
 msgstr "Suscripciones de mailing"
-=======
+
 #. module: website
 #: model:ir.ui.view,arch_db:website.sitemap_index_xml
 msgid "sitemap-"
@@ -4491,7 +4488,7 @@ msgstr "sitemap.xml"
 #, python-format
 msgid "Newsletter"
 msgstr "Boletín de noticias"
-=======
+
 msgid "the classic Odoo interface"
 msgstr "el interfaz clásico de Odoo"
 
@@ -4547,7 +4544,7 @@ msgstr "Tus cambios han sido guardados"
 #: model:ir.ui.view,arch_db:website_mass_mailing.website_popup_snippet
 msgid "your email..."
 msgstr "su correo electrónico..."
-=======
+
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "your Company details form"

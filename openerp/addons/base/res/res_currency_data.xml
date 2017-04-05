@@ -2,6 +2,7 @@
 <openerp>
     <data noupdate="1">
         <!-- Currencies -->
+<!-- Juliano -->
         <record id="USD" model="res.currency">
             <field name="name">USD</field>
             <field name="symbol">$</field>
