@@ -607,7 +607,7 @@ class PurchaseOrderLine(models.Model):
             diff_quantity = line.product_qty
             for procurement in line.procurement_ids:
                 procurement_qty = procurement.product_uom._compute_qty_obj(procurement.product_uom, procurement.product_qty, line.product_uom)
-                if float_compare(diff_quantity, 0.0, precision_rounding=line.product_uom.rounding) > 0:
+                if float_compare(procurement_qty, 0.0, precision_rounding=procurement.product_uom.rounding) > 0 and float_compare(diff_quantity, 0.0, precision_rounding=line.product_uom.rounding) > 0:
                     tmp = template.copy()
                     tmp.update({
                         'product_uom_qty': min(procurement_qty, diff_quantity),
@@ -981,7 +981,7 @@ class ProductTemplate(models.Model):
 
     @api.model
     def _get_buy_route(self):
-        buy_route = self.env.ref('purchase.route_warehouse0_buy')
+        buy_route = self.env.ref('purchase.route_warehouse0_buy', raise_if_not_found=False)
         if buy_route:
             return buy_route.ids
         return []

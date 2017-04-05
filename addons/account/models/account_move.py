@@ -693,15 +693,12 @@ class AccountMoveLine(models.Model):
             line_currency = (line.currency_id and line.amount_currency) and line.currency_id or company_currency
             amount_currency_str = ""
             total_amount_currency_str = ""
-<<<<<<< HEAD
             if line_currency != company_currency:
-=======
             if line_currency != company_currency and target_currency == line_currency:
                 # The payment currency is the invoice currency, but they are different than the company currency
                 # We use the `amount_currency` computed during the invoice validation, at the invoice date
                 # to avoid exchange gain/loss
                 # e.g. an invoice of 100€ must be paid with 100€, whatever the company currency and the exchange rates
->>>>>>> 816b19ed56cf6ec37b431a2018fd7726f4386504
                 total_amount = line.amount_currency
                 actual_debit = debit > 0 and amount_currency or 0.0
                 actual_credit = credit > 0 and -amount_currency or 0.0

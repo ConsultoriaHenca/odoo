@@ -9,15 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-29 10:26+0000\n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-"PO-Revision-Date: 2016-05-11 16:29+0000\n"
-=======
-"PO-Revision-Date: 2016-10-28 14:27+0000\n"
->>>>>>> 9a8e44e01dfeba92b6e077ed100bcd16455412f1
-=======
-"PO-Revision-Date: 2016-12-28 22:53+0000\n"
->>>>>>> 816b19ed56cf6ec37b431a2018fd7726f4386504
+"PO-Revision-Date: 2017-03-07 08:35+0000\n"
 "Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/odoo/odoo-9/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -301,7 +293,7 @@ msgstr "Kuvaus"
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line_display_name
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_partner_display_name
 msgid "Display Name"
-msgstr "Näytä nimi"
+msgstr "Näyttönimi"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -366,7 +358,7 @@ msgstr "Jos valittu, uudet viestit vaativat huomiosi."
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_message_is_follower
 msgid "Is Follower"
-msgstr "on seuraaja"
+msgstr "On seuraaja"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_message_last_post
@@ -465,7 +457,7 @@ msgstr "Ostotilaus luotu"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_picking_type_id
 msgid "Picking Type"
-msgstr ""
+msgstr "Keräilyn tyyppi"
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_procurement_order

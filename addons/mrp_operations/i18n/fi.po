@@ -10,8 +10,13 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-14 10:27+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-12-07 16:35+0000\n"
 "Last-Translator: Timo Koukkari <timo.koukkari@seamk.fi>\n"
+=======
+"PO-Revision-Date: 2017-03-08 18:03+0000\n"
+"Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>\n"
+>>>>>>> 659103718f3362d7804db29633f77419e8ff2abb
 "Language-Team: Finnish (http://www.transifex.com/odoo/odoo-9/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -87,7 +92,7 @@ msgstr "Alisiirrot"
 #: model:ir.actions.act_window,help:mrp_operations.mrp_production_wc_action_form
 #: model:ir.actions.act_window,help:mrp_operations.mrp_production_wc_action_planning
 msgid "Click to start a new work order."
-msgstr ""
+msgstr "Klikkaa aloittaaksesi uuden työtilauksen."
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_code_code
@@ -137,7 +142,7 @@ msgstr "Viive"
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_display_name
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_workorder_display_name
 msgid "Display Name"
-msgstr "Näytä nimi"
+msgstr "Näyttönimi"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.view_report_mrp_workorder_filter
